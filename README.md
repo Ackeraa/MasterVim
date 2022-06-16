@@ -1,1 +1,1 @@
-# MasterVim
+# master-vim
