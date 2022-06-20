@@ -14,6 +14,8 @@ vim.g.loaded_master_vim = 1
 -- Be careful to not overuse this file!
 local master_vim = require("master-vim")
 
+--vim.api.nvim_set_hl(0, "MasterVimHeader", { default = "Number" })
+
 --[[
 vim.api.nvim_create_user_command(
   "MasterVimGenericGreet",
