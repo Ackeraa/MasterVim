@@ -1,2 +1,3 @@
 local Window = require("window")
-local window = Window:new()
+--local window = Window:new()
+

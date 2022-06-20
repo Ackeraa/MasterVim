@@ -1,7 +1,7 @@
 local bind = require("bind")
 local log = require("log")
 
-local function create_empty()
+local function create_empty(count)
     local lines = {}
     for idx = 1, count, 1 do
         lines[idx] = ""
