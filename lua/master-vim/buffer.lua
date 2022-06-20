@@ -1,5 +1,5 @@
-local bind = require("bind")
-local log = require("log")
+local bind = require("master-vim.bind")
+local log = require("master-vim.log")
 
 local function create_empty(count)
     local lines = {}

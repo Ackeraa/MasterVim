@@ -16,9 +16,7 @@ local master_vim = require("master-vim")
 
 --vim.api.nvim_set_hl(0, "MasterVimHeader", { default = "Number" })
 
---[[
 vim.api.nvim_create_user_command(
-  "MasterVimGenericGreet",
-  master_vim.generic_greet,
+  "MasterVim",
+  master_vim.open,
 {})
---]]
