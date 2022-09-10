@@ -21,6 +21,13 @@ Normal Mode:
 * >> -> move a sequence of box
 * f -> find  sth, hidden trap, use f to jump to safe place
 * qx{changes}q -> You perform once, your shadow repeat it
+* * -> could find the number of matches
+* <C-a>/<C-x> -> change numbers 7 
+* gU/gu -> swap uppercase or lowercase
+* <C-o> -> insert normal model, could use with only insert enabled 
+* <C-r>0 -> paste in insert model, could use with only inert enabled 
+* <C-r> = -> calculate
+* R -> replace sth
 
 
 Insert Mode:
@@ -28,10 +35,19 @@ Insert Mode:
 * c, C
 
 Visual Mode:
-*
+* v/V/<C-v> -> used by shadow to clear(move or delete) a path for self, use o to goto the other end
+* vit -> more complicated moves
 
-Command Mode:
-*
+Command-Line Mode:
+* [range] delete [x] -> delete into x
+* [range] yank [x] -> yank into x
+* [line] put [x]  -> put after line
+* [range] copy {address} -> copy under address line
+* [range] move {address} -> move under address line
+* [range] join -> join specific lines
+* [range] normal {commands} -> excute normal command on each specific line
+
+
 
 
 ## Ideas
