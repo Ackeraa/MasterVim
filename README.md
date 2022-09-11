@@ -12,7 +12,7 @@
 
 ## Movements
 Normal Mode:
-* h, l, j, k, w, e, b, 0, $ -> basic move
+* h, l, j, k, w/W, e/E, b/B, ge, 0, $ -> basic move
 * d*/D -> destroy
 * x -> pick up, hold in hand
 * p -> use tool in hand
@@ -28,6 +28,7 @@ Normal Mode:
 * <C-r>0 -> paste in insert model, could use with only inert enabled 
 * <C-r> = -> calculate
 * R -> replace sth
+* %normal A;/%normal @q -> add sth to each line
 
 
 Insert Mode:
@@ -46,6 +47,10 @@ Command-Line Mode:
 * [range] move {address} -> move under address line
 * [range] join -> join specific lines
 * [range] normal {commands} -> excute normal command on each specific line
+* :2,$!sort -t',' -k2 -> filter
+* :bnext, bprevisou, blast, bnext -> switch stairs
+* :bufdo -> do sth in all stairs
+* :args -> list all stairs
 
 
 
