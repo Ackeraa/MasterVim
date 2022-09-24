@@ -29,9 +29,7 @@ Normal Mode:
 * <C-r> = -> calculate
 * R -> replace sth
 * %normal A;/%normal @q -> add sth to each line
-* `. -> location of last move
-* `[ -> start of last yank
-* `< -> start of last visual selection
+
 
 Insert Mode:
 * i, I, a, A, s, S -> fill chars, maybe
@@ -54,6 +52,28 @@ Command-Line Mode:
 * :bufdo -> do sth in all stairs
 * :args -> list all stairs
 
+Move Faster:
+* `. -> location of last move
+* `[ -> start of last yank
+* `< -> start of last visual selection
+* <C-o>/<C-i> -> jump back/forward, used for backward the exact positions
+* (/) -> jump to the start of previous/next sentence
+* {/} -> jump to the start of previous/next paragraph
+* '{mark} -> jump to a mark
+* argdo normal @a -> execute ex command in argument list buffers
+
+Match patterns:
+* /\v -> very magic search
+* /\V -> very no magic search
+* /\_s -> white space or line break
+* <> -> word boundaries
+* /\zs -> start of the match
+* /\ze -> end of the match
+* /e -> place the cursor at the end of the search
+* submatch(0)
+* :g//d -> global command
+* :v//d -> executes a command that does not match
+* :g/TODO/yank A
 
 ## Ideas
 * Try to keep as simple as possible.
