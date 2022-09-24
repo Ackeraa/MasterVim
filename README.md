@@ -29,7 +29,9 @@ Normal Mode:
 * <C-r> = -> calculate
 * R -> replace sth
 * %normal A;/%normal @q -> add sth to each line
-
+* `. -> location of last move
+* `[ -> start of last yank
+* `< -> start of last visual selection
 
 Insert Mode:
 * i, I, a, A, s, S -> fill chars, maybe
@@ -51,8 +53,6 @@ Command-Line Mode:
 * :bnext, bprevisou, blast, bnext -> switch stairs
 * :bufdo -> do sth in all stairs
 * :args -> list all stairs
-
-
 
 
 ## Ideas
